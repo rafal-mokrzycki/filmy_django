@@ -1,5 +1,5 @@
 from django.urls import path
-from invoiceweb.views import test_response
+from filmyweb.views import test_response
 
 
 urlpatterns = [

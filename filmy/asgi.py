@@ -1,5 +1,5 @@
 """
-ASGI config for invoice project.
+ASGI config for filmy project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'invoice.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'filmy.settings')
 
 application = get_asgi_application()
