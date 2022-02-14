@@ -5,4 +5,4 @@ from .models import Film
 
 @admin.register(Film)
 class FilmAdmin(admin.ModelAdmin):
-    fields = ["tytul"]
+    pass
